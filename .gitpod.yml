@@ -1,0 +1,7 @@
+
+vscode:
+  extensions:
+    - lightyen.tailwindcss-intellisense-twin
+    - ecmel.vscode-html-css
+    - pucelle.vscode-css-navigation
+    - pranaygp.vscode-css-peek

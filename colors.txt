@@ -1,0 +1,8 @@
+#084C61 Hex Code
+Color Name: Midnight Green (Eagle Green)
+
+#07C8F9 Hex Code
+Color Name: Vivid Sky Blue
+
+#FFFFFF Hex Code
+Color Name: White
