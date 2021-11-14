@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <title>Cartic Finance</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#111827" />
@@ -12,13 +13,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
-    <title>Cartic Finance</title>
 </head>
 
 <body class="leading-9">
-    <nav class="bg-gray-900 sticky top-0 px-5 py-3 md:px-6 md:py-4 border-none border-b-0">
+    <nav class="bg-gray-900 sticky z-50 top-0 px-5 py-3 md:px-6 md:py-4 border-none border-b-0">
         <div class="max-w-6xl mx-auto">
             <div class="flex justify-between flex-col md:flex-row md:items-center">
                 <div class="flex items-center flex-1 justify-between">
@@ -39,13 +40,19 @@
                 <ul id="nav"
                     class="text-base pt-14 md:pt-0 hidden md:flex md:text-lg lg:text-xl font-semibold text-brand-light">
                     <li class="mr-7 mb-6 md:mb-0">
-                        Why Us?
+                        <a href="#why-cartic">
+                            Why Us?
+                        </a>
                     </li>
                     <li class="mr-7 mb-6 md:mb-0">
-                        Protocol
+                        <a href="#sitelinks">
+                            Protocol
+                        </a>
                     </li>
                     <li class="mr-7 mb-6 md:mb-0">
-                        Community
+                        <a href="#sitelinks">
+                            Community
+                        </a>
                     </li>
                     <li class="text-white">
                         <a class="text-white" href="https://app.cartic.finance">
@@ -59,7 +66,7 @@
     <main>
         <section class="bg-gray-900 pt-9 pb-12 px-5 md:px-6 md:pt-20 md:pb-20">
             <div class="grid grid-cols-1 max-w-6xl mx-auto place-items-between md:grid-cols-5">
-                <div class="md:col-span-3">
+                <div data-aos="fade-up" data-aos-duration="1000" class="md:col-span-3">
                     <div id="catch-phrase" class="text-gray-100 text-3xl md:text-4xl lg:text-5xl font-semibold">
                         Explore safe cross chain, decentralized finance with,
                     </div>
@@ -80,7 +87,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="hidden md:block md:col-span-2">
+                <div data-aos="fade-down" data-aos-duration="1000" class="hidden md:block md:col-span-2">
                     <div class="flex justify-end">
                         <img src="resources/images/logo.svg" class="h-96" />
                     </div>
@@ -88,12 +95,13 @@
             </div>
         </section>
 
-        <section class="bg-white pt-8 px-5 md:px-6 xl:px-0 pb-12 max-w-6xl mx-auto md:pt-14 md:pb-20">
-            <div
+        <section id="why-cartic" class="bg-white pt-8 px-5 md:px-6 xl:px-0 pb-12 max-w-6xl mx-auto md:pt-14 md:pb-20">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine"
                 class="text-brand-dark font-bold w-[50%] text-2xl md:text-3xl lg:text-4xl border-brand-light border-b-8 pb-2">
                 Why Cartic?
             </div>
-            <div class="text-brand-dark md:text-justify border-brand-light border-b-8">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                class="text-brand-dark md:text-justify border-brand-light border-b-8">
                 Cartic Finance is a community driven DeFi DApp that gives its users high farming rewards and higher
                 APYs. Its improved
                 AMM also gives its users freedom to swap, provide liquidity and also migrate liquidity from other
@@ -108,7 +116,8 @@
 
             <div class="mt-32">
                 <div class="grid gap-5 grid-cols-1 md:grid-cols-5">
-                    <div class="md:col-span-2">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                        class="md:col-span-2">
                         <div class="mb-4 text-brand-dark">
                             <div class="text-3xl font-bold">
                                 Apex AMM
@@ -119,7 +128,8 @@
                         </div>
                         <img src="resources/images/infographics/apexAMM.svg" class="h-72" />
                     </div>
-                    <div class="md:col-span-3 md:text-justify border-t-8 border-brand-light border-b-8 text-brand-dark">
+                    <div data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                        class="md:col-span-3 md:text-justify border-t-8 border-brand-light border-b-8 text-brand-dark">
                         Automated market makers are decentralized protocols that rely on simple or complex mathematical
                         formula price assets
                         instead of the order books used by old exchanges. The AMM prices the asset in an algorithmic
@@ -143,7 +153,8 @@
 
             <div class="mt-32">
                 <div class="grid gap-5 grid-cols-1 md:grid-cols-5">
-                    <div class="md:col-span-2">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                        class="md:col-span-2">
                         <div class="mb-4 text-brand-dark">
                             <div class="text-3xl font-bold">
                                 Increased Rewards
@@ -159,7 +170,8 @@
                             rewards on exponential growth.
                         </div>
                     </div>
-                    <div class="md:col-span-3 flex justify-center">
+                    <div data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                        class="md:col-span-3 flex justify-center">
                         <img src="resources/images/infographics/increased-rewards.svg" class="h-72" />
                     </div>
                 </div>
@@ -167,7 +179,8 @@
 
             <div class="mt-32">
                 <div class="grid gap-5 grid-cols-1 md:grid-cols-5">
-                    <div class="md:col-span-2">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                        class="md:col-span-2">
                         <div class="mb-4 text-brand-dark">
                             <div class="text-3xl font-bold">
                                 Cross-Pool
@@ -178,7 +191,8 @@
                         </div>
                         <img src="resources/images/infographics/cross-pool.svg" class="h-72" />
                     </div>
-                    <div class="md:col-span-3 md:text-justify border-t-8 border-brand-light border-b-8 text-brand-dark">
+                    <div data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                        class="md:col-span-3 md:text-justify border-t-8 border-brand-light border-b-8 text-brand-dark">
                         The main problem of AMMs is liquidity. How can one make sure there’s enough liquidity on each
                         pool in
                         different blockchains,
@@ -204,11 +218,12 @@
             </div>
         </section>
     </main>
-    <footer class="bg-gray-900 px-5 py-24 md:px-6">
+    <footer id="sitelinks" class="bg-gray-900 px-5 py-24 md:px-6">
         <div class="max-w-6xl mx-auto">
             <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
                 <div class="col-span-2 md:col-span-2">
-                    <div class="flex items-center">
+                    <div data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="1000"
+                        class="flex items-center">
                         <img class="h-16" src="resources/images/logo.svg" alt="cartic finance" />
                         <div class="text-brand-light ml-5 text-2xl font-bold lg:text-4xl">
                             Cartic <span class="text-white">Finance.</span>
@@ -234,16 +249,24 @@
                     </div>
                     <ul class="text-white">
                         <li>
-                            <i class="fab fa-twitter mr-2"></i> Twitter
+                            <a href="https://twitter.com/CarticFinance?s=09">
+                                <i class="fab fa-twitter mr-2"></i> Twitter
+                            </a>
                         </li>
                         <li>
-                            <i class="fab fa-discord mr-2"></i> Discord
+                            <a href="https://discord.com/invite/4mppeNsP">
+                                <i class="fab fa-discord mr-2"></i> Discord
+                            </a>
                         </li>
                         <li>
-                            <i class="fab fa-telegram mr-2"></i> Telegram
+                            <a href="https://t.me/joinchat/BTiLYqNfZLwwZjhk">
+                                <i class="fab fa-telegram mr-2"></i> Telegram
+                            </a>
                         </li>
                         <li>
-                            <i class="fab fa-github mr-2"></i> Github
+                            <a href="https://github.com/Carticfinance">
+                                <i class="fab fa-github mr-2"></i> Github
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -252,7 +275,11 @@
                         Protocol
                     </div>
                     <ul class="text-white">
-                        <li>White paper</li>
+                        <li>
+                            <a href="https://www.cartic.finance/src/pdf/Cartic%20Finance%20WhitePaper.pdf">
+                                White paper
+                            </a>
+                        </li>
                         <li>Documentation</li>
                         <li>Etherscan Links</li>
                     </ul>
@@ -260,6 +287,10 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
